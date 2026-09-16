@@ -40,17 +40,16 @@
     copy.type = 'button';
     copy.className = 'copy-code';
     copy.textContent = 'Copy';
-    copy.setAttribute('aria-label', 'Sao chép đoạn mã');
+    copy.setAttribute('aria-label', 'Copy code');
     copy.addEventListener('click', async () => {
       try {
         await navigator.clipboard.writeText(block.innerText);
-        copy.textContent = 'Đã chép';
+        copy.textContent = 'Copied';
         setTimeout(() => { copy.textContent = 'Copy'; }, 1600);
       } catch (_) {
-        copy.textContent = 'Không thể chép';
+        copy.textContent = 'Copy failed';
       }
     });
     wrapper.appendChild(copy);
   });
 })();
-

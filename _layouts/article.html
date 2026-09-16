@@ -2,30 +2,29 @@
 layout: default
 ---
 <article class="article shell">
-  <a class="back-link" href="{{ page.category_url | relative_url }}">← Quay lại {{ page.category_name }}</a>
+  <a class="back-link" href="{{ page.category_url | relative_url }}">← Back to {{ page.category_name }}</a>
   <header class="article-header">
     <p class="eyebrow">{{ page.category_name }}</p>
     <h1>{{ page.title }}</h1>
     {% if page.summary %}<p class="article-summary">{{ page.summary }}</p>{% endif %}
-    <div class="article-meta" aria-label="Thông tin bài viết">
+    <div class="article-meta" aria-label="Article details">
       {% if page.date %}<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%d/%m/%Y" }}</time>{% endif %}
-      {% if page.difficulty %}<span>Độ khó: {{ page.difficulty }}</span>{% endif %}
-      {% if page.platform %}<span>Nền tảng: {{ page.platform }}</span>{% endif %}
+      {% if page.difficulty %}<span>Difficulty: {{ page.difficulty }}</span>{% endif %}
+      {% if page.platform %}<span>Platform: {{ page.platform }}</span>{% endif %}
     </div>
     {% if page.tags and page.tags.size > 0 %}
-      <ul class="tag-list" aria-label="Thẻ bài viết">
+      <ul class="tag-list" aria-label="Article tags">
         {% for tag in page.tags %}<li>{{ tag }}</li>{% endfor %}
       </ul>
     {% endif %}
   </header>
   <div class="article-layout">
     <aside class="toc-panel" data-toc hidden>
-      <p class="toc-title">Trong bài viết</p>
-      <nav aria-label="Mục lục bài viết" data-toc-list></nav>
+      <p class="toc-title">In this article</p>
+      <nav aria-label="Table of contents" data-toc-list></nav>
     </aside>
     <div class="prose" data-article-body>
       {{ content }}
     </div>
   </div>
 </article>
-
