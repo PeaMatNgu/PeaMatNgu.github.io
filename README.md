@@ -2,6 +2,30 @@
 
 Mã nguồn Jekyll cho website cá nhân của **Cao Trần Thành Trung**, sẵn sàng triển khai tại `https://peamatngu.github.io` bằng GitHub Pages.
 
+## Chạy bằng Docker trong VS Code
+
+Yêu cầu Docker Desktop đang chạy. Mở thư mục dự án bằng VS Code, mở Terminal tích hợp rồi chạy:
+
+```powershell
+docker compose up --build
+```
+
+Mở `http://127.0.0.1:4000`. Jekyll theo dõi thay đổi trong Markdown, layout, CSS và JavaScript; trang sẽ tự tải lại khi file được lưu.
+
+Những lần sau, nếu `Gemfile` không thay đổi, chỉ cần:
+
+```powershell
+docker compose up
+```
+
+Nhấn `Ctrl+C` để dừng, sau đó có thể dọn container và network bằng:
+
+```powershell
+docker compose down
+```
+
+Các cổng chỉ được bind vào `127.0.0.1`, vì vậy bản preview không được mở ra mạng nội bộ.
+
 ## Chạy thử cục bộ
 
 Yêu cầu Ruby và Bundler. Trên Windows, có thể cài Ruby bằng [RubyInstaller](https://rubyinstaller.org/).
@@ -138,4 +162,3 @@ scripts/check-content.ps1 Kiểm tra ảnh trong Markdown
 ```
 
 Website không có backend, database, secret hoặc plugin Jekyll không tương thích với GitHub Pages.
-
