@@ -1,0 +1,64 @@
+title: "Cao Trần Thành Trung"
+description: "Blog portfolio về an toàn thông tin, CTF, Hack The Box và Binary Exploitation."
+url: "https://peamatngu.github.io"
+baseurl: ""
+lang: "vi"
+timezone: "Asia/Bangkok"
+
+author:
+  name: "Cao Trần Thành Trung"
+  role: "Cybersecurity Student | CTF Player"
+  email: "thanhtrungcaotran@gmail.com"
+  github: "https://github.com/PeaMatNgu"
+  linkedin: ""
+  cv: ""
+  avatar: "/assets/images/profile-placeholder.svg"
+  bio: "Ghi lại hành trình học an toàn thông tin qua CTF, phòng lab và nghiên cứu Binary Exploitation."
+
+collections:
+  ctf:
+    output: true
+    permalink: /ctf/:name/
+  htb:
+    output: true
+    permalink: /htb/:name/
+  binary:
+    output: true
+    permalink: /binary-exploitation/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: ctf
+    values:
+      layout: article
+      category_name: "CTF Write-ups"
+      category_url: "/ctf/"
+  - scope:
+      path: ""
+      type: htb
+    values:
+      layout: article
+      category_name: "HackTheBox Machine Labs"
+      category_url: "/htb/"
+  - scope:
+      path: ""
+      type: binary
+    values:
+      layout: article
+      category_name: "Binary Exploitation"
+      category_url: "/binary-exploitation/"
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - scripts
+
