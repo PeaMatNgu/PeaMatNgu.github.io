@@ -133,6 +133,9 @@ a:hover { color: var(--burgundy-dark); }
 .prose blockquote { margin: 1.6rem 0; padding: 1rem 1.25rem; border-left: 4px solid var(--burgundy); background: var(--paper); color: var(--ink); font-size: 1.05rem; }
 .prose blockquote p { margin: 0; }
 .prose img { width: auto !important; min-width: min(100%, 34rem); max-width: 100% !important; height: auto !important; margin: 1.8rem auto 2.2rem; padding: .4rem; border: 1px solid var(--line); border-radius: 6px; background: var(--paper); box-shadow: 0 12px 30px rgba(85, 29, 45, .09); }
+.prose .flow-figure { max-width: 42rem; margin: 2rem auto 2.8rem; text-align: center; }
+.prose .flow-figure img { width: 100% !important; min-width: 0; margin: 0; }
+.prose .flow-figure figcaption { margin-top: .7rem; color: var(--muted); font-size: .84rem; line-height: 1.5; }
 .prose table { display: block; max-width: 100%; overflow-x: auto; margin: 1.5rem 0; border-collapse: collapse; }
 .prose th, .prose td { padding: .8rem 1rem; border: 1px solid var(--line); text-align: left; }
 .prose th { background: var(--blush); }
