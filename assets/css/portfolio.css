@@ -117,6 +117,7 @@ a:hover { color: var(--burgundy-dark); }
 .article-layout { display: grid; grid-template-columns: 190px minmax(0, 850px); gap: clamp(2rem, 4vw, 4rem); align-items: start; padding-top: 3rem; }
 .toc-panel { position: sticky; top: 108px; padding-left: 1rem; border-left: 2px solid var(--rose); }
 .toc-panel[hidden] { display: none; }
+.toc-panel[hidden] + .prose { grid-column: 1 / -1; width: min(100%, 850px); }
 .toc-title { margin: 0 0 .7rem; color: var(--ink); font-size: .75rem; font-weight: 700; text-transform: uppercase; }
 .toc-panel ol { padding: 0; margin: 0; list-style: none; }
 .toc-panel li { margin: .4rem 0; }
