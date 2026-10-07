@@ -26,6 +26,6 @@ Tuy `Go` có cơ chế validate dữ liệu, nhưng nó sẽ lấy giá trị cu
 
 Phía Sender không phân biệt ký tự hoa thường, Python thì có, nó phân biệt các key này cộng thêm việc không có cơ chế validate ở backend. Vì vậy, ý tưởng của bài này sẽ là truyền thêm 1 trường `"Action": "getcosmic"` trong request, trước đó là `"action": "GetSecureCode"`, request này vượt qua cơ chế kiểm tra của `Go` và sẽ trả về flag trong Response.
 
-<img src="https://hackmd.io/_uploads/BkdZ70tUGg.png" alt="Space Explorer exploit response">
+![Space Explorer request and flag response](/assets/images/htb/space-explorer/exploit-response.png)
 
 Flag: `HTB{C0SM1C-BYP4SS}`
