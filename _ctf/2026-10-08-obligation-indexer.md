@@ -30,3 +30,9 @@ Well met, Indexer. I am Corvin Aldery, holder of a merchant account to which the
 ```
 
 Flag thu được: `HTB{l34k3d_d3b7s_thr0ugh_m3m0ry_p01s0n1ng}`
+
+## Challenge files
+
+- [Obligation Indexer challenge folder](https://github.com/PeaMatNgu/Cyber-Apocalypse-HTB-2026/tree/main/Obligation_Indexer)
+- [Original Markdown write-up](https://github.com/PeaMatNgu/Cyber-Apocalypse-HTB-2026/blob/main/Obligation_Indexer/Obligation_Indexer-Cyber%20Apocalypse%20HTB.md)
+- [Cyber-Apocalypse-HTB-2026 repository](https://github.com/PeaMatNgu/Cyber-Apocalypse-HTB-2026)

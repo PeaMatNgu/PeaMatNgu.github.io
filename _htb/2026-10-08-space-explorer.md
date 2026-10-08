@@ -29,3 +29,9 @@ Phía Sender không phân biệt ký tự hoa thường, Python thì có, nó ph
 ![Space Explorer request and flag response](/assets/images/htb/space-explorer/exploit-response.png)
 
 Flag: `HTB{C0SM1C-BYP4SS}`
+
+## Supporting files
+
+- [Space Explorer challenge folder](https://github.com/PeaMatNgu/HTB_Labs_Web/tree/main/Space%20Explorer)
+- [Original Markdown write-up](https://github.com/PeaMatNgu/HTB_Labs_Web/blob/main/Space%20Explorer/Space%20Explorer.md)
+- [HTB_Labs_Web repository](https://github.com/PeaMatNgu/HTB_Labs_Web)
