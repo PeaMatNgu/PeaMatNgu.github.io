@@ -1,0 +1,336 @@
+{
+  "team": {
+    "id": 410831,
+    "name": "Lighth0use",
+    "country": "VN",
+    "url": "https://ctftime.org/team/410831",
+    "rating_year": 2026,
+    "rating_place": 374,
+    "country_place": 34,
+    "rating_points": 180.862,
+    "event_count": 35,
+    "best_place": 15
+  },
+  "years": [
+    2026,
+    2025
+  ],
+  "events": [
+    {
+      "id": 3097,
+      "title": "NNS CTF 2026",
+      "date": "2026-09-04",
+      "year": 2026,
+      "place": 357,
+      "points": "512",
+      "url": "https://ctftime.org/event/3097"
+    },
+    {
+      "id": 3290,
+      "title": "COMPFEST CTF 2026",
+      "date": "2026-08-29",
+      "year": 2026,
+      "place": 226,
+      "points": "210",
+      "url": "https://ctftime.org/event/3290"
+    },
+    {
+      "id": 3181,
+      "title": "gaslightCTF 2026",
+      "date": "2026-08-14",
+      "year": 2026,
+      "place": 293,
+      "points": "492",
+      "url": "https://ctftime.org/event/3181"
+    },
+    {
+      "id": 3330,
+      "title": "Thryve CTF 2026",
+      "date": "2026-08-14",
+      "year": 2026,
+      "place": 390,
+      "points": "100",
+      "url": "https://ctftime.org/event/3330"
+    },
+    {
+      "id": 3061,
+      "title": "L3akCTF 2026",
+      "date": "2026-07-31",
+      "year": 2026,
+      "place": 31,
+      "points": "2278",
+      "url": "https://ctftime.org/event/3061"
+    },
+    {
+      "id": 3104,
+      "title": "OmniCTF 2026 Quals",
+      "date": "2026-07-17",
+      "year": 2026,
+      "place": 79,
+      "points": "1008",
+      "url": "https://ctftime.org/event/3104"
+    },
+    {
+      "id": 3249,
+      "title": "V1T CTF 2026",
+      "date": "2026-06-27",
+      "year": 2026,
+      "place": 27,
+      "points": "5502",
+      "url": "https://ctftime.org/event/3249"
+    },
+    {
+      "id": 3309,
+      "title": "boroCTF 2026",
+      "date": "2026-06-12",
+      "year": 2026,
+      "place": 141,
+      "points": "9000",
+      "url": "https://ctftime.org/event/3309"
+    },
+    {
+      "id": 3178,
+      "title": "Grey Cat The Flag 2026 Qualifiers",
+      "date": "2026-05-30",
+      "year": 2026,
+      "place": 89,
+      "points": "4610",
+      "url": "https://ctftime.org/event/3178"
+    },
+    {
+      "id": 3209,
+      "title": "THEM?!CTF 2026",
+      "date": "2026-05-29",
+      "year": 2026,
+      "place": 140,
+      "points": "1200",
+      "url": "https://ctftime.org/event/3209"
+    },
+    {
+      "id": 3136,
+      "title": "SecLeaf Q2 CTF 2026",
+      "date": "2026-05-23",
+      "year": 2026,
+      "place": 522,
+      "points": "1404",
+      "url": "https://ctftime.org/event/3136"
+    },
+    {
+      "id": 3205,
+      "title": "DEF CON CTF Qualifier 2026",
+      "date": "2026-05-22",
+      "year": 2026,
+      "place": 414,
+      "points": "1",
+      "url": "https://ctftime.org/event/3205"
+    },
+    {
+      "id": 3269,
+      "title": "0xV01D CTF 2026",
+      "date": "2026-05-18",
+      "year": 2026,
+      "place": 21,
+      "points": "6483",
+      "url": "https://ctftime.org/event/3269"
+    },
+    {
+      "id": 3195,
+      "title": "TJCTF 2026",
+      "date": "2026-05-15",
+      "year": 2026,
+      "place": 130,
+      "points": "7193",
+      "url": "https://ctftime.org/event/3195"
+    },
+    {
+      "id": 2927,
+      "title": "BKISC CTF 2026",
+      "date": "2026-05-09",
+      "year": 2026,
+      "place": 29,
+      "points": "2851",
+      "url": "https://ctftime.org/event/2927"
+    },
+    {
+      "id": 3186,
+      "title": "THCon 2K26 CTF",
+      "date": "2026-05-07",
+      "year": 2026,
+      "place": 213,
+      "points": "500",
+      "url": "https://ctftime.org/event/3186"
+    },
+    {
+      "id": 3056,
+      "title": "UMDCTF 2026",
+      "date": "2026-04-24",
+      "year": 2026,
+      "place": 275,
+      "points": "307",
+      "url": "https://ctftime.org/event/3056"
+    },
+    {
+      "id": 3117,
+      "title": "JerseyCTF VI",
+      "date": "2026-04-18",
+      "year": 2026,
+      "place": 16,
+      "points": "23021",
+      "url": "https://ctftime.org/event/3117"
+    },
+    {
+      "id": 3156,
+      "title": "CTF@CIT 2026",
+      "date": "2026-04-17",
+      "year": 2026,
+      "place": 270,
+      "points": "8949",
+      "url": "https://ctftime.org/event/3156"
+    },
+    {
+      "id": 3150,
+      "title": "Kashi CTF 2026",
+      "date": "2026-04-03",
+      "year": 2026,
+      "place": 149,
+      "points": "1500",
+      "url": "https://ctftime.org/event/3150"
+    },
+    {
+      "id": 3130,
+      "title": "TexSAW 2026",
+      "date": "2026-03-27",
+      "year": 2026,
+      "place": 115,
+      "points": "1601",
+      "url": "https://ctftime.org/event/3130"
+    },
+    {
+      "id": 3095,
+      "title": "TAMUctf 2026",
+      "date": "2026-03-20",
+      "year": 2026,
+      "place": 312,
+      "points": "366",
+      "url": "https://ctftime.org/event/3095"
+    },
+    {
+      "id": 3105,
+      "title": "Midnight Flag CTF - EXECUTION",
+      "date": "2026-03-13",
+      "year": 2026,
+      "place": 391,
+      "points": "200",
+      "url": "https://ctftime.org/event/3105"
+    },
+    {
+      "id": 3133,
+      "title": "UTCTF 2026",
+      "date": "2026-03-13",
+      "year": 2026,
+      "place": 136,
+      "points": "5622",
+      "url": "https://ctftime.org/event/3133"
+    },
+    {
+      "id": 3015,
+      "title": "LA CTF 2026",
+      "date": "2026-02-07",
+      "year": 2026,
+      "place": 695,
+      "points": "300",
+      "url": "https://ctftime.org/event/3015"
+    },
+    {
+      "id": 2969,
+      "title": "UofTCTF 2026",
+      "date": "2026-01-10",
+      "year": 2026,
+      "place": 1201,
+      "points": "31",
+      "url": "https://ctftime.org/event/2969"
+    },
+    {
+      "id": 2851,
+      "title": "niteCTF 2025",
+      "date": "2025-12-12",
+      "year": 2025,
+      "place": 878,
+      "points": "50",
+      "url": "https://ctftime.org/event/2851"
+    },
+    {
+      "id": 2898,
+      "title": "WannaGame Championship 2025",
+      "date": "2025-12-06",
+      "year": 2025,
+      "place": 15,
+      "points": "6268",
+      "url": "https://ctftime.org/event/2898"
+    },
+    {
+      "id": 2850,
+      "title": "PatriotCTF 2025",
+      "date": "2025-11-21",
+      "year": 2025,
+      "place": 810,
+      "points": "500",
+      "url": "https://ctftime.org/event/2850"
+    },
+    {
+      "id": 2906,
+      "title": "PwnSec CTF 2025",
+      "date": "2025-11-15",
+      "year": 2025,
+      "place": 134,
+      "points": "400",
+      "url": "https://ctftime.org/event/2906"
+    },
+    {
+      "id": 2606,
+      "title": "Platypwn 2025",
+      "date": "2025-11-15",
+      "year": 2025,
+      "place": 120,
+      "points": "400",
+      "url": "https://ctftime.org/event/2606"
+    },
+    {
+      "id": 2844,
+      "title": "AmateursCTF 2025",
+      "date": "2025-11-14",
+      "year": 2025,
+      "place": 525,
+      "points": "10",
+      "url": "https://ctftime.org/event/2844"
+    },
+    {
+      "id": 2883,
+      "title": "BuckeyeCTF 2025",
+      "date": "2025-11-08",
+      "year": 2025,
+      "place": 339,
+      "points": "350",
+      "url": "https://ctftime.org/event/2883"
+    },
+    {
+      "id": 2878,
+      "title": "Infobahn CTF 2025",
+      "date": "2025-11-07",
+      "year": 2025,
+      "place": 157,
+      "points": "600",
+      "url": "https://ctftime.org/event/2878"
+    },
+    {
+      "id": 2920,
+      "title": "V1t CTF 2025",
+      "date": "2025-10-31",
+      "year": 2025,
+      "place": 112,
+      "points": "2840",
+      "url": "https://ctftime.org/event/2920"
+    }
+  ],
+  "updated_at": "2026-10-08T01:15:16+00:00"
+}

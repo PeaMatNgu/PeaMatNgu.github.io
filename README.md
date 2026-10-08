@@ -110,9 +110,19 @@ powershell -ExecutionPolicy Bypass -File scripts/check-content.ps1
 
 Script sẽ báo file, dòng và URL; script không sửa nội dung và không ghi đè ảnh.
 
-## Thêm achievement
+## Thành tích và đồng bộ CTFtime
 
-1. Chép ảnh vào `assets/images/achievements/`.
+Trang Achievements tự đọc kết quả công khai của team **Lighth0use** (team ID `410831`) từ `_data/ctftime.json`. Workflow `.github/workflows/sync-ctftime.yml` chạy mỗi thứ Hai và chỉ tạo commit khi dữ liệu CTFtime thực sự thay đổi. Có thể chạy thủ công trong **GitHub → Actions → Sync CTFtime achievements → Run workflow**.
+
+Để cập nhật dữ liệu ngay trên máy:
+
+```powershell
+python scripts/sync_ctftime.py
+```
+
+Certificate được quản lý riêng trong `_data/achievements.yml`:
+
+1. Chép ảnh xem trước vào `assets/images/achievements/` và bản PDF/PNG gốc vào `assets/certificates/`.
 2. Thêm một mục thật vào `_data/achievements.yml`:
 
 ```yml
@@ -121,6 +131,7 @@ Script sẽ báo file, dòng và URL; script không sửa nội dung và không 
   result: "Kết quả hoặc thứ hạng"
   description: "Mô tả ngắn."
   image: "/assets/images/achievements/ten-chung-chi.jpg"
+  certificate: "/assets/certificates/ten-chung-chi.pdf"
   alt: "Mô tả nội dung ảnh certificate"
   verification: "https://duong-dan-xac-minh.example"
 ```
