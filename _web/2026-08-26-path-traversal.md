@@ -2,6 +2,7 @@
 title: "Path Traversal"
 date: 2026-08-26
 platform: "PortSwigger Web Security Academy"
+learning_topic: "Web Vulnerabilities"
 tags:
   - path-traversal
   - file-system

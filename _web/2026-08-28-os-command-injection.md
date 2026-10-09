@@ -2,6 +2,7 @@
 title: "OS Command Injection"
 date: 2026-08-28
 platform: "PortSwigger Web Security Academy"
+learning_topic: "Web Vulnerabilities"
 tags:
   - command-injection
   - oast

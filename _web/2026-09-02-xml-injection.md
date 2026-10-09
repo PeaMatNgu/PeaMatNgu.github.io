@@ -2,6 +2,7 @@
 title: "XML Injection"
 date: 2026-09-02
 platform: "PortSwigger Web Security Academy"
+learning_topic: "Web Vulnerabilities"
 tags:
   - xxe
   - xml
