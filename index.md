@@ -8,7 +8,7 @@ permalink: /
   <div class="shell hero-inner">
     <p class="eyebrow">Personal cybersecurity blog</p>
     <h1>Learn, practice,<br>and <em>document.</em></h1>
-    <p class="hero-bio">CTFs, Hack The Box, Binary Exploitation, and everything I learn on my cybersecurity journey.</p>
+    <p class="hero-bio">CTFs, Hack The Box, Binary Exploitation, Web Security, and everything I learn on my cybersecurity journey.</p>
     <div class="hero-links" aria-label="Contact and profiles">
       <a class="button button-light" href="mailto:thanhtrungcaotran@gmail.com">Contact</a>
       <a class="text-link" href="https://github.com/PeaMatNgu" rel="me noopener" target="_blank">GitHub <span aria-hidden="true">↗</span></a>
@@ -31,17 +31,18 @@ permalink: /
 <section class="section shell" aria-labelledby="focus-title">
   <div class="section-heading editorial-heading">
     <p class="eyebrow">Explore the blog</p>
-    <h2 id="focus-title">Four main topics</h2>
+    <h2 id="focus-title">Five main topics</h2>
   </div>
   <div class="category-grid">
     <a class="category-card" href="{{ '/ctf/' | relative_url }}"><span class="category-index">01</span><h3>CTF Write-ups</h3><p>Challenge analysis, solution processes, and lessons learned.</p><strong>{{ site.ctf | size }} posts <span aria-hidden="true">→</span></strong></a>
     <a class="category-card" href="{{ '/htb/' | relative_url }}"><span class="category-index">02</span><h3>HackTheBox Labs</h3><p>Enumeration, exploitation, and privilege escalation in lab environments.</p><strong>{{ site.htb | size }} posts <span aria-hidden="true">→</span></strong></a>
     <a class="category-card" href="{{ '/binary-exploitation/' | relative_url }}"><span class="category-index">03</span><h3>Binary Exploitation</h3><p>Core concepts, binary analysis, and exploitation techniques.</p><strong>{{ site.binary | size }} posts <span aria-hidden="true">→</span></strong></a>
-    <a class="category-card" href="{{ '/achievements/' | relative_url }}"><span class="category-index">04</span><h3>Achievements</h3><p>Certificates, competitions, and verified milestones.</p><strong>View achievements <span aria-hidden="true">→</span></strong></a>
+    <a class="category-card" href="{{ '/web-security/' | relative_url }}"><span class="category-index">04</span><h3>Web Security Notes</h3><p>Concepts, exploitation techniques, payloads, and defensive notes from web security study.</p><strong>{{ site.web | size }} posts <span aria-hidden="true">→</span></strong></a>
+    <a class="category-card" href="{{ '/achievements/' | relative_url }}"><span class="category-index">05</span><h3>Achievements</h3><p>Certificates, competitions, and verified milestones.</p><strong>View achievements <span aria-hidden="true">→</span></strong></a>
   </div>
 </section>
 
-{% assign all_posts = site.ctf | concat: site.htb | concat: site.binary | sort: 'date' | reverse %}
+{% assign all_posts = site.ctf | concat: site.htb | concat: site.binary | concat: site.web | sort: 'date' | reverse %}
 <section class="latest-section">
   <div class="shell">
     <div class="section-heading editorial-heading">

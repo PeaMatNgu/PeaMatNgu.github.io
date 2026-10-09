@@ -67,6 +67,7 @@ avatar: "/assets/images/avatar.jpg"
 - `_ctf/` — CTF write-up.
 - `_htb/` — Hack The Box machine write-up.
 - `_binary/` — Binary Exploitation.
+- `_web/` — Web Security Notes.
 
 Tên file nên dùng chữ thường, không dấu và dấu gạch ngang, ví dụ `2026-09-16-ten-bai.md`. Front matter mẫu:
 
@@ -166,6 +167,7 @@ _includes/                Header, footer, thẻ bài viết
 _ctf/                     CTF write-up
 _htb/                     HTB machine write-up
 _binary/                  Binary Exploitation
+_web/                     Web Security Notes
 _data/achievements.yml    Dữ liệu thành tích
 assets/css/style.css      Giao diện responsive
 assets/js/main.js         Menu, mục lục, nút copy code
