@@ -49,7 +49,6 @@ description: Verified certificates and competition results for Lighth0use.
         <p>{{ item.description }}</p>
         <div class="achievement-links">
           {% if item.certificate %}<a href="{{ item.certificate | relative_url }}" target="_blank">View certificate <span aria-hidden="true">↗</span></a>{% endif %}
-          {% if item.verification %}<a href="{{ item.verification }}" target="_blank" rel="noopener">CTFtime result <span aria-hidden="true">↗</span></a>{% endif %}
         </div>
       </div>
     </article>
@@ -65,7 +64,7 @@ description: Verified certificates and competition results for Lighth0use.
   <div class="achievement-section-heading">
     <p class="eyebrow">Competition history</p>
     <h2 id="results-heading">CTFtime results</h2>
-    <p>Public team results are refreshed every Monday. Rankings shown here follow CTFtime and may use a different division or scoring scope from an organizer-issued certificate.</p>
+    <p>Public team results are refreshed every Monday. The single team profile link above is the source for this table. Rankings may use a different division or scoring scope from an organizer-issued certificate.</p>
   </div>
   <div class="achievement-table-wrap">
     <table class="achievement-table">
@@ -74,7 +73,7 @@ description: Verified certificates and competition results for Lighth0use.
       {% for event in ctftime.events %}
         <tr>
           <td><time datetime="{{ event.date }}">{{ event.date | date: "%d %b %Y" }}</time></td>
-          <td><a href="{{ event.url }}" target="_blank" rel="noopener">{{ event.title }} <span aria-hidden="true">↗</span></a></td>
+          <td>{{ event.title }}</td>
           <td>#{{ event.place }}</td>
           <td>{{ event.points }}</td>
         </tr>
