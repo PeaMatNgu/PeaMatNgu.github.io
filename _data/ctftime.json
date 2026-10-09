@@ -5,15 +5,14 @@
     "country": "VN",
     "url": "https://ctftime.org/team/410831",
     "rating_year": 2026,
-    "rating_place": 374,
+    "rating_place": 376,
     "country_place": 34,
     "rating_points": 180.862,
-    "event_count": 35,
-    "best_place": 15
+    "event_count": 24,
+    "best_place": 16
   },
   "years": [
-    2026,
-    2025
+    2026
   ],
   "events": [
     {
@@ -231,106 +230,7 @@
       "place": 136,
       "points": "5622",
       "url": "https://ctftime.org/event/3133"
-    },
-    {
-      "id": 3015,
-      "title": "LA CTF 2026",
-      "date": "2026-02-07",
-      "year": 2026,
-      "place": 695,
-      "points": "300",
-      "url": "https://ctftime.org/event/3015"
-    },
-    {
-      "id": 2969,
-      "title": "UofTCTF 2026",
-      "date": "2026-01-10",
-      "year": 2026,
-      "place": 1201,
-      "points": "31",
-      "url": "https://ctftime.org/event/2969"
-    },
-    {
-      "id": 2851,
-      "title": "niteCTF 2025",
-      "date": "2025-12-12",
-      "year": 2025,
-      "place": 878,
-      "points": "50",
-      "url": "https://ctftime.org/event/2851"
-    },
-    {
-      "id": 2898,
-      "title": "WannaGame Championship 2025",
-      "date": "2025-12-06",
-      "year": 2025,
-      "place": 15,
-      "points": "6268",
-      "url": "https://ctftime.org/event/2898"
-    },
-    {
-      "id": 2850,
-      "title": "PatriotCTF 2025",
-      "date": "2025-11-21",
-      "year": 2025,
-      "place": 810,
-      "points": "500",
-      "url": "https://ctftime.org/event/2850"
-    },
-    {
-      "id": 2906,
-      "title": "PwnSec CTF 2025",
-      "date": "2025-11-15",
-      "year": 2025,
-      "place": 134,
-      "points": "400",
-      "url": "https://ctftime.org/event/2906"
-    },
-    {
-      "id": 2606,
-      "title": "Platypwn 2025",
-      "date": "2025-11-15",
-      "year": 2025,
-      "place": 120,
-      "points": "400",
-      "url": "https://ctftime.org/event/2606"
-    },
-    {
-      "id": 2844,
-      "title": "AmateursCTF 2025",
-      "date": "2025-11-14",
-      "year": 2025,
-      "place": 525,
-      "points": "10",
-      "url": "https://ctftime.org/event/2844"
-    },
-    {
-      "id": 2883,
-      "title": "BuckeyeCTF 2025",
-      "date": "2025-11-08",
-      "year": 2025,
-      "place": 339,
-      "points": "350",
-      "url": "https://ctftime.org/event/2883"
-    },
-    {
-      "id": 2878,
-      "title": "Infobahn CTF 2025",
-      "date": "2025-11-07",
-      "year": 2025,
-      "place": 157,
-      "points": "600",
-      "url": "https://ctftime.org/event/2878"
-    },
-    {
-      "id": 2920,
-      "title": "V1t CTF 2025",
-      "date": "2025-10-31",
-      "year": 2025,
-      "place": 112,
-      "points": "2840",
-      "url": "https://ctftime.org/event/2920"
     }
   ],
-  "updated_at": "2026-10-08T01:15:16+00:00"
+  "updated_at": "2026-10-09T14:54:30+00:00"
 }

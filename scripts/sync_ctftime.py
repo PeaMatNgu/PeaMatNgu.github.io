@@ -11,7 +11,8 @@ from urllib.request import Request, urlopen
 
 
 TEAM_ID = 410831
-FIRST_YEAR = 2025
+FIRST_YEAR = 2026
+CUTOFF_EVENT_ID = 3133  # UTCTF 2026
 API_ROOT = "https://ctftime.org/api/v1"
 OUTPUT = Path(__file__).resolve().parents[1] / "_data" / "ctftime.json"
 USER_AGENT = "PeaMatNgu-achievements-sync/1.0 (+https://peamatngu.github.io)"
@@ -79,6 +80,14 @@ def main() -> None:
                 }
             )
 
+    cutoff_event = next(
+        (event for event in events if event["id"] == CUTOFF_EVENT_ID), None
+    )
+    if cutoff_event is None:
+        raise RuntimeError("UTCTF 2026 was not found in the CTFtime results")
+    events = [
+        event for event in events if event["timestamp"] >= cutoff_event["timestamp"]
+    ]
     events.sort(key=lambda item: (item["timestamp"], item["id"]), reverse=True)
     for event in events:
         event.pop("timestamp", None)
