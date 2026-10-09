@@ -1,5 +1,5 @@
 title: "Cao Trần Thành Trung"
-description: "A personal cybersecurity portfolio covering CTFs, Hack The Box, Binary Exploitation, and Web Security."
+description: "A personal cybersecurity portfolio covering CTFs, Hack The Box, Binary Exploitation, and Learning Notes."
 url: "https://peamatngu.github.io"
 baseurl: ""
 lang: "en"
@@ -56,7 +56,7 @@ defaults:
       type: web
     values:
       layout: article
-      category_name: "Web Security Notes"
+      category_name: "Learning Notes"
       category_url: "/web-security/"
 
 markdown: kramdown
