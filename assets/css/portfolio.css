@@ -167,7 +167,7 @@ a:hover { color: var(--burgundy-dark); }
 .prose .flow-figure { max-width: 42rem; margin: 2rem auto 2.8rem; text-align: center; }
 .prose .flow-figure img { width: 100% !important; min-width: 0; margin: 0; }
 .prose .flow-figure figcaption { margin-top: .7rem; color: var(--muted); font-size: .84rem; line-height: 1.5; }
-.prose .figure-caption { margin: -.8rem auto 2.2rem; color: var(--muted); font-size: .88rem; line-height: 1.5; text-align: center; }
+.prose .figure-caption { display: block; width: 100%; margin: -.8rem auto 2.2rem; color: var(--muted); font-size: .88rem; line-height: 1.5; text-align: center; }
 .prose .code-figure { width: 100%; margin: 2rem 0 2.6rem; }
 .prose .code-figure a { display: block; cursor: zoom-in; }
 .prose .code-figure img { width: 100% !important; min-width: 0; margin: 0; padding: 0; border-color: #362a2c; border-radius: 6px; background: #241d1f; }
