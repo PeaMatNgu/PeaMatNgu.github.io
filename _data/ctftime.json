@@ -5,16 +5,25 @@
     "country": "VN",
     "url": "https://ctftime.org/team/410831",
     "rating_year": 2026,
-    "rating_place": 377,
-    "country_place": 34,
-    "rating_points": 180.862,
-    "event_count": 24,
+    "rating_place": 373,
+    "country_place": 35,
+    "rating_points": 185.122,
+    "event_count": 25,
     "best_place": 16
   },
   "years": [
     2026
   ],
   "events": [
+    {
+      "id": 3440,
+      "title": "FortID CTF 2026",
+      "date": "2026-10-09",
+      "year": 2026,
+      "place": 108,
+      "points": "1641",
+      "url": "https://ctftime.org/event/3440"
+    },
     {
       "id": 3097,
       "title": "NNS CTF 2026",
@@ -232,5 +241,5 @@
       "url": "https://ctftime.org/event/3133"
     }
   ],
-  "updated_at": "2026-10-12T09:15:04+00:00"
+  "updated_at": "2026-10-19T07:48:49+00:00"
 }
