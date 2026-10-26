@@ -5,8 +5,8 @@
     "country": "VN",
     "url": "https://ctftime.org/team/410831",
     "rating_year": 2026,
-    "rating_place": 373,
-    "country_place": 35,
+    "rating_place": 384,
+    "country_place": 37,
     "rating_points": 185.122,
     "event_count": 25,
     "best_place": 16
@@ -241,5 +241,5 @@
       "url": "https://ctftime.org/event/3133"
     }
   ],
-  "updated_at": "2026-10-19T07:48:49+00:00"
+  "updated_at": "2026-10-26T07:49:30+00:00"
 }
