@@ -17,9 +17,9 @@ tags:
 
 ## Cách khai thác phổ biến
 
-- Truyền vào payload với syntax ví dụ: “|whoami”, dấu “|” trong linux có ý nghĩa là 1 pipe, command đằng trước sẽ là input đầu vào cho command đằng sau, ở đây là câu lệnh “whoami”, nếu như sử dụng “&amp;” thì nó sẽ tách riêng câu command đằng sau thành 1 phần riêng của HTTP request, và nó không hiểu “whoami” có ý nghĩa gì. Từ đó không trả về được kết quả injection mong muốn.
+- Truyền vào payload với syntax ví dụ: “&#124;whoami”, dấu “&#124;” trong linux có ý nghĩa là 1 pipe, command đằng trước sẽ là input đầu vào cho command đằng sau, ở đây là câu lệnh “whoami”, nếu như sử dụng “&amp;” thì nó sẽ tách riêng câu command đằng sau thành 1 phần riêng của HTTP request, và nó không hiểu “whoami” có ý nghĩa gì. Từ đó không trả về được kết quả injection mong muốn.
 
-- Khai thác Blind OS Command Injection bằng cách sử dụng câu lệnh “ping”, vì kết quả output vẫn được thực hiện nhưng không được hiển thị nên việc sử dụng câu lệnh “ping” để chứng minh ở đó có lỗ hổng. Ví dụ “email=x||ping+-c+10+127.0.0.1||”, kí hiệu “||” có ý nghĩa nếu như vế đằng trước hoặc sau không thực hiện thành công thì sẽ chạy vế còn lại.
+- Khai thác Blind OS Command Injection bằng cách sử dụng câu lệnh “ping”, vì kết quả output vẫn được thực hiện nhưng không được hiển thị nên việc sử dụng câu lệnh “ping” để chứng minh ở đó có lỗ hổng. Ví dụ “email=x&#124;&#124;ping+-c+10+127.0.0.1&#124;&#124;”, kí hiệu “&#124;&#124;” có ý nghĩa nếu như vế đằng trước hoặc sau không thực hiện thành công thì sẽ chạy vế còn lại.
 
 - Một cách khai thác khác cho dạng này thay vì dựa trên thời gian delay, đó là ghi vào 1 file mà web server có thể truy cập, ví dụ như “/var/www/static/ok.txt&amp;”, sau đó tìm query string có thể nhận được file này vào để xem kết quả của command đã truy vấn.
 
@@ -37,6 +37,6 @@ tags:
 
 - Chỉ cho phép alphanumeric: A-Z, a-z, 0-9; loại bỏ ký tự đặc biệt và khoảng trắng.
 
-- Không nên chỉ escape shell metacharacters như &amp;, |, ;, &gt;, $...
+- Không nên chỉ escape shell metacharacters như &amp;, &#124;, ;, &gt;, $...
 
 - Validate input chặt chẽ &gt; cố gắng sanitize/escape input.
