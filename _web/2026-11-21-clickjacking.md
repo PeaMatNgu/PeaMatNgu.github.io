@@ -3,6 +3,7 @@ title: "Clickjacking — Learning Notes"
 date: 2026-11-21
 summary: "Ghi chú về cơ chế hoạt động, payload, kỹ thuật bypass và phòng chống Clickjacking."
 platform: "PortSwigger Web Security Academy"
+learning_topic: "Web Vulnerabilities"
 tags:
   - web-vulnerability
   - clickjacking

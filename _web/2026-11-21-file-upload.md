@@ -3,6 +3,7 @@ title: "File Upload — Learning Notes"
 date: 2026-11-21
 summary: "Ghi chú về bản chất, cách khai thác và cơ chế phòng chống lỗ hổng File Upload."
 platform: "PortSwigger Web Security Academy"
+learning_topic: "Web Vulnerabilities"
 tags:
   - web-vulnerability
   - file-upload
